@@ -3,6 +3,7 @@
 
 // import * as redux from "redux";
 // import {combineReducers} from "redux";
+import { configureStore } from "@reduxjs/toolkit";
 
 
 // below will be the same as for both redux and redux-toolkit.
