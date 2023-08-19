@@ -16,7 +16,7 @@ const noteSlice = createSlice ({
         add: (state,action) => {
             state.notes.push[{
                 text : action.payload,
-                created: new Date(),
+                createdOn: new Date(),
 
             }]
         },
@@ -28,6 +28,8 @@ const noteSlice = createSlice ({
     }
 }); 
 
+export const noteReducer = noteSlice.reducer;
+export const action = noteSlice.actions;
 
 // this is example of reducer function using the redux function
 

@@ -37,17 +37,10 @@ const todoSlice = createSlice({
         },
 
     }
-})
+});
 
-
-
-
-
-
-
-
-
-
+export const todoReducer = todoSlice.reducer;
+export const  action = todoSlice.actions;
 
 // below is the example of a reducer using redux
 
