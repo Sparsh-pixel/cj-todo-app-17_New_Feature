@@ -40,7 +40,12 @@ const todoSlice = createSlice({
 });
 
 export const todoReducer = todoSlice.reducer;
-export const  action = todoSlice.actions;
+export const  actions = todoSlice.actions;
+
+// selector function
+
+export const todoSelector = (state) => state.todoReducer.todos;
+
 
 // below is the example of a reducer using redux
 

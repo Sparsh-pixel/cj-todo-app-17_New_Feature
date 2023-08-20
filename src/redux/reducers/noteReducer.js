@@ -31,6 +31,10 @@ const noteSlice = createSlice ({
 export const noteReducer = noteSlice.reducer;
 export const action = noteSlice.actions;
 
+// selector function
+
+export const noteSelector = (state) => state.noteReducer.notes;
+
 // this is example of reducer function using the redux function
 
 // export function noteReducer (state= initialState, action) {
